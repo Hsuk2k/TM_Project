@@ -1,4 +1,5 @@
-## Title
+# Music Recommender System
+### Bas Goossens, Fatemah Iqbal and Kushagra
 
 ## Abstract
 This project seeks to create a music recommendation system utilizing collaborative filtering techniques. Our system will integrate conventional filtering factors such as similar artists, lyrics, and BPM. However, our primary objective is to delve into the evolving nature of individuals' music preferences over time. By understanding these changes, we aim to provide personalized music suggestions for individuals who share similar profiles. Furthermore, we plan to evaluate the effectiveness of content filtering criteria. Additionally, if time permits, we may explore the literary aspects of songs for recommendations. 
