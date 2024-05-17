@@ -27,4 +27,20 @@ _In the coming week we seek to achieve the following:_
 And then we can go on with the development of filtering criteria and feature extraction models, model training and testing, user interface design and integration(not sure), documentation and finalization of the project.
 
 ## Documentation
-This can be added as the project unfolds. You should describe, in particular, what your repo contains and how to reproduce your results.
+
+### Project Update 1:
+
+Last.fm Dataset
+
+The initial Last.fm dataset was in TSV (Tab Separated Values) format, which was converted to CSV formaat, to facilitate easier handling and analysis.
+The following data cleaning procedures were performed:
+1. **Missing Values**: Any missing values in the dataset were identified and addressed appropriately.
+2. **Inconsistencies**: Inconsistent data entries were corrected to ensure uniformity.
+3. **Outliers**: Outlier detection methods were employed to identify and handle anomalous data points.
+The cleaned data was grouped by `user_id` to do user-specific analysis and recommendations. Some initial EDA was conducted, revealing the following insights into distribution of plays per artist, user interaction patterns, popularity trends over time.
+
+For Spotify dataset  similar exploratory data analysis and processing was performed to ensure it was ready for feature engineering. Key aspects analyzed included musical attributes distribution, genre and artist popularity, correlations between different musical features.
+
+As evident we are here just trying to understand dataset and then decide what can be done with it, for the next project we are aiming to make a clean, new dataset using lastfm, spotify and million dataset subset. We want to do this so that we can more easily handle training models since we will have one coherant dataset. We want to extract specific attributes from each dataset since we could not find one dataset that has all the desired attributes for our project.
+
+
