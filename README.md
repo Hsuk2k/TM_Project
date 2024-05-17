@@ -37,7 +37,7 @@ The following data cleaning procedures were performed:
 1. **Missing Values**: Any missing values in the dataset were identified and addressed appropriately.
 2. **Inconsistencies**: Inconsistent data entries were corrected to ensure uniformity.
 3. **Outliers**: Outlier detection methods were employed to identify and handle anomalous data points.
-The cleaned data was grouped by `user_id` to do user-specific analysis and recommendations. Some initial EDA was conducted, revealing the following insights into distribution of plays per artist, user interaction patterns, popularity trends over time.
+The cleaned data was grouped by `user_id` to do user-specific analysis and recommendations. Some initial EDA was conducted, revealing the insights into distribution of plays per artist, user interaction patterns, popularity trends over time.
 
 For Spotify dataset  similar exploratory data analysis and processing was performed to ensure it was ready for feature engineering. Key aspects analyzed included musical attributes distribution, genre and artist popularity, correlations between different musical features.
 
